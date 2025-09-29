@@ -39,6 +39,25 @@ The design prioritizes **clean navigation**, **horizontal header layout**, and *
 
 
 
+screenshots:
+<img width="1920" height="1080" alt="Screenshot 2025-09-29 231059" src="https://github.com/user-attachments/assets/44e482e8-4fb2-4eff-a464-678ccc911344" />
+<img width="1920" height="1080" alt="Screenshot 2025-09-29 230303" src="https://github.com/user-attachments/assets/722995cb-d32e-44a5-87da-76ba9a4865d5" />
+<img width="1920" height="1080" alt="Screenshot 2025-09-29 230143" src="https://github.com/user-attachments/assets/38936d0b-89ef-416d-8d22-6d308a2af7c9" />
+<img width="1920" height="1080" alt="Screenshot 2025-09-29 230110" src="https://github.com/user-attachments/assets/15437298-c519-47ea-88c1-3e0058556cef" />
+<img width="1920" height="1080" alt="Screenshot 2025-09-29 230023" src="https://github.com/user-attachments/assets/7d5d131e-d0cc-4066-9e2d-23596d1a3992" />
+<img width="1920" height="1080" alt="Screenshot 2025-09-29 225638" src="https://github.com/user-attachments/assets/e9e33f1a-2467-43e5-8daf-a6d6a73f95a7" />
+<img width="1920" height="1080" alt="Screenshot 2025-09-29 225619" src="https://github.com/user-attachments/assets/60ccd581-6ff4-4c4d-b67c-a42a3a9ce4b3" />
+<img width="1920" height="1080" alt="Screenshot 2025-09-29 225558" src="https://github.com/user-attachments/assets/74937f3b-a13d-416c-b46a-828c028a4c9a" />
+<img width="1920" height="1080" alt="Screenshot 2025-09-29 225545" src="https://github.com/user-attachments/assets/6bb3bd17-4a96-42ed-8e7a-1c583ec939cf" />
+<img width="1920" height="1080" alt="Screenshot 2025-09-29 225531" src="https://github.com/user-attachments/assets/f543301a-db3b-4de4-941c-51eb9285a6bb" />
+<img width="1920" height="1080" alt="Screenshot 2025-09-29 225638" src="https://github.com/user-attachments/assets/7e63d251-6437-42de-b492-cbf36bd58854" />
+
+
+
+
+
+
+
 ## 📂 Project Structure
 golden-crust-bakery/
 │
