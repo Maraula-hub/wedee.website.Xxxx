@@ -1,126 +1,82 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Golden Crust Bakery Website Development</title>
-</head>
-<body>
+# 🍞 Golden Crust Bakery Website
 
-  <h1>Golden Crust Bakery Website Development</h1>
+The **Golden Crust Bakery Website** is a fully responsive static website created to showcase the bakery's products, share its story, and provide customers with easy access to contact and enquiry forms.  
+The project is designed with **HTML5** and **CSS3**, focusing on simplicity, readability, and professional design.
 
-  <h2>Student Information</h2>
-  <ul>
-    <li><strong>Name:</strong> Asanda Maraula</li>
-    <li><strong>Student ID:</strong> ST10490872</li>
-    <li><strong>Course:</strong> WEDE</li>
-  </ul>
+---
 
-  <h2>Project Overview</h2>
-  <p>
-    This project involves developing a website for Golden Crust Bakery.  
-    The website showcases the bakery’s products, services, and contact information.  
-    It aims to provide a simple, responsive, and user-friendly interface for customers.
-  </p>
+## 📖 Overview
 
-  <h2>Website Goals and Objectives</h2>
-  <ul>
-    <li>Provide an online presence for Golden Crust Bakery</li>
-    <li>Showcase bakery products with images and descriptions</li>
-    <li>Allow customers to make enquiries and custom orders online</li>
-    <li>Display bakery location, contact details, and opening hours</li>
-    <li>Ensure mobile-friendly and responsive design</li>
-    <li>Create a structure that allows future expansion (e.g., online store)</li>
-  </ul>
+Golden Crust Bakery is passionate about serving freshly baked goods to the community. This website acts as the bakery's online presence, offering:
 
-  <h2>Key Features and Functionality</h2>
-  <ul>
-    <li>Home page with welcome message and highlights</li>
-    <li>About Us page with bakery history and team information</li>
-    <li>Products page with images and categories</li>
-    <li>Enquiry page with contact/order form</li>
-    <li>Contact page with location and social media links</li>
-    <li>Navigation bar on all pages for easy access</li>
-  </ul>
+- A welcoming **homepage** to introduce the brand
+- An informative **About Us** page sharing the bakery’s story
+- A **Products** page showcasing the bakery’s goods
+- An **Enquiry form** for customer orders and questions
+- A **Contact page** with key business details
 
-  <h2>Project Timeline</h2>
-  <table border="1" cellpadding="5" cellspacing="0">
-    <tr>
-      <th>Task</th>
-      <th>Deadline</th>
-      <th>Status</th>
-    </tr>
-    <tr>
-      <td>Project Planning & Sitemap</td>
-      <td>08/08/2025</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Create Folder Structure & HTML files</td>
-      <td>10/08/2025</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Add CSS Styling</td>
-      <td>23/08/2025</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Add JavaScript functionality</td>
-      <td>23/08/2025</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Testing & Review</td>
-      <td>23/08/2025</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Final Submission</td>
-      <td>26/08/2025</td>
-      <td></td>
-    </tr>
-  </table>
+The design prioritizes **clean navigation**, **horizontal header layout**, and **mobile-friendly responsiveness**, ensuring a smooth browsing experience across devices.
 
-  <h2>Part 1 Details</h2>
-  <ul>
-    <li>Research bakery website examples</li>
-    <li>Identify required pages: Home, About Us, Products, Enquiry, Contact</li>
-    <li>Outline essential functionality and desired features</li>
-    <li>Document planning notes, wireframes, and sitemap</li>
-  </ul>
+---
 
-  <h2>Sitemap</h2>
-  <pre>
-GoldenCrustBakery/
-├── index.html        # Home page
-├── about.html        # About Us page
-├── products.html     # Products page
-├── enquiry.html      # Enquiry / Order page
-├── contact.html      # Contact page
+## ✨ Key Features
+
+- **Responsive Design**  
+  Optimized for desktop, tablet, and mobile screens using CSS Flexbox and grid layouts.
+
+- **Consistent Navigation**  
+  Horizontal navigation header across all pages with hover effects for better usability.
+
+- **Simple Color Palette**  
+  Soft, bakery-inspired colors (cream, brown, and warm tones) for a welcoming aesthetic.
+
+- **Contact & Enquiry Forms**  
+  Easy-to-use forms for customer feedback and order requests.
+
+- **Reusable Stylesheet**  
+  A single `style.css` file that applies consistent design to all pages.
+
+---
+
+## 📂 Project Structure
+golden-crust-bakery/
+│
+├── index.html # Home page
+├── about.html # About Us page
+├── product.html # Products page
+├── enquiry.html # Enquiry/Order form page
+├── contact.html # Contact page
+│
 ├── css/
-│   └── style.css     # Website styling
-├── js/
-│   └── script.js     # JavaScript functions
-└── images/
-    ├── bread.jpg
-    ├── cakes.jpg
-    └── pastries.jpg
-  </pre>
+│ └── style.css # External stylesheet
+│
+├── _images/ # All images used on the website
 
-  <h2>Change Log</h2>
-  <p>
-    The project started with creating the folder structure and HTML pages.  
-    Next, CSS styling and navigation were added.  
-    Images and product information were inserted, and JavaScript messages were implemented for page load events.
-  </p>
+## References
 
-  <h2>References</h2>
-  <ul>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">MDN Web Docs – HTML</a></li>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">MDN Web Docs – CSS</a></li>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">MDN Web Docs – JavaScript</a></li>
-    <li>Bakery website research</li>
-  </ul>
+1. MDN Web Docs. *HTML: HyperText Markup Language.* Mozilla Foundation.  
+   https://developer.mozilla.org/en-US/docs/Web/HTML  
 
-</body>
-</html>
+2. MDN Web Docs. *CSS: Cascading Style Sheets.* Mozilla Foundation.  
+   https://developer.mozilla.org/en-US/docs/Web/CSS  
+
+3. MDN Web Docs. *JavaScript.* Mozilla Foundation.  
+   https://developer.mozilla.org/en-US/docs/Web/JavaScript  
+
+4. W3Schools. *HTML Tutorial.* Refsnes Data.  
+   https://www.w3schools.com/html/  
+
+5. W3Schools. *CSS Tutorial.* Refsnes Data.  
+   https://www.w3schools.com/css/  
+
+6. W3Schools. *Responsive Web Design.* Refsnes Data.  
+   https://www.w3schools.com/css/css_rwd_intro.asp  
+
+7. Example Bakery Websites (for design inspiration):  
+   - https://www.panetonebakery.com  
+   - https://www.tartinebakery.com  
+
+
+
+  
+    
