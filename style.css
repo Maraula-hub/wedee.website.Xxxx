@@ -1,0 +1,224 @@
+/* Enquiry page professional styles */
+.enquiry-section {
+  max-width: 480px;
+  margin: 2.5rem auto;
+  background: #5d522d;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(200,150,80,0.10);
+  padding: 2.5rem 2rem;
+}
+.enquiry-title {
+  text-align: center;
+  font-size: 1.6rem;
+  color: #552b05;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+.enquiry-desc {
+  text-align: center;
+  color: #4a2c14;
+  margin-bottom: 2rem;
+}
+.enquiry-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+.enquiry-form label {
+  font-weight: 600;
+  color: #2e2d2d;
+}
+.enquiry-form input,
+.enquiry-form textarea {
+  padding: 0.7rem;
+  border: 1px solid #5c4424;
+  border-radius: 8px;
+  font-size: 1rem;
+  background: #9b8080;
+  transition: border-color 0.2s;
+}
+.enquiry-form input:focus,
+.enquiry-form textarea:focus {
+  border-color: #b87333;
+  outline: none;
+}
+.enquiry-btn {
+  background: linear-gradient(90deg, #b87333 0%, #9b7747 100%);
+  color: #3e2525;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+  padding: 0.8rem 1.5rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(184,115,51,0.10);
+  transition: background 0.2s, box-shadow 0.2s;
+}
+.enquiry-btn:hover,
+.enquiry-btn:focus {
+  background: linear-gradient(90deg, #91724b 0%, #b87333 100%);
+  box-shadow: 0 4px 16px rgba(184,115,51,0.18);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* =====================
+   BASE STYLES
+===================== */
+html {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 16px;
+  color: #131313;
+  line-height: 1.6;
+}
+
+body {
+  background-color: #6d5c5c;
+}
+
+/* =====================
+   TYPOGRAPHY
+===================== */
+h1,h2, h3 {
+  font-family: "Georgia", serif;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #2e1010;
+}
+
+h1 { font-size: 2rem; }
+h2 { font-size: 1.5rem; }
+
+/* =====================
+   HEADER & NAVIGATION
+===================== */
+header {
+  background-color: #2d1f09;   /* warm bakery tone */
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #604c31;
+}
+
+header h1 {
+  font-size: 1.8rem;
+  color: #d87828;
+  font-weight: bold;
+}
+
+/* NAVIGATION LINKS HORIZONTAL */
+nav {
+  display: flex;
+  gap: 2rem;   /* space between links */
+}
+
+nav a {
+  text-decoration: none;
+  color: #d5680e;
+  font-weight: 500;
+  transition: color 0.3s ease, background 0.3s ease;
+  padding: 0.5rem 0.8rem;
+  border-radius: 4px;
+}
+
+nav a:hover {
+  background-color: #eb7608;
+  color: #000000;
+}
+
+/* =====================
+   MAIN CONTENT
+===================== */
+main {
+  max-width: 1100px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+/* =====================
+   IMAGES
+===================== */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+/* =====================
+   FORMS
+===================== */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input, textarea, button {
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 0.6rem;
+  border: 1px solid #252020;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #f8d7a4;
+  border: none;
+  padding: 0.7rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #b87333;
+  color: #fff;
+}
+
+/* =====================
+   FOOTER
+===================== */
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  background-color: #382b17;
+  border-top: 2px solid #e6b16c;
+  color: #e4751b;
+  margin-top: 2rem;
+}
+
+/* =====================
+   RESPONSIVE DESIGN
+===================== */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+}
