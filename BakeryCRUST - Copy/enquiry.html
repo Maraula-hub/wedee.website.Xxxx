@@ -1,0 +1,54 @@
+<!-- HTML5 doctype declaration -->
+<!DOCTYPE html>
+<!-- Root HTML element -->
+<html>
+<head>
+  <!-- Page title shown in browser tab -->
+  <title>Golden Crust Bakery - Enquiry</title>
+</head>
+<body>
+  <!-- Header section with navigation menu links -->
+  <header>
+    <nav>
+      <!-- Link to homepage -->
+      <a href="index.html">Home</a> |
+      <!-- Link to about page -->
+      <a href="about.html">About Us</a> |
+      <!-- Link to products page -->
+      <a href="product.html">Products</a> |
+      <!-- Link to enquiry/order form page -->
+      <a href="enquiry.html">Enquiry</a> |
+      <!-- Link to contact page -->
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Main content: enquiry/order form -->
+    <h1>Enquiry / Order Form</h1>
+    <p>Fill in your details below to ask a question or place an order.</p>
+
+    <!-- Form for user enquiry or order. Calls JS function on submit. -->
+    <form onsubmit="showMessage(); return false;">
+      <label>Name:</label><br>
+      <input type="text" name="name"><br><br>
+
+  <!-- Email input field for user contact -->
+  <label>Email:</label><br>
+  <input type="email" name="email"><br><br>
+
+      <label>Message / Order Details:</label><br>
+      <textarea name="message" rows="4" cols="50"></textarea><br><br>
+
+      <button type="submit">Send</button>
+    </form>
+  </main>
+
+  <!-- Footer section -->
+  <footer>
+    <p>© 2025 Golden Crust Bakery</p>
+  </footer>
+
+</body>
+<!-- End of HTML document -->
+</html>
